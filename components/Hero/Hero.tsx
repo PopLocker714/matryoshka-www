@@ -31,7 +31,7 @@ export const Hero = () => {
             </p>
           </div>
           <div className="mt-10 flex items-center justify-start gap-x-6">
-            <Link href="/matryoshka_1.0.apk" className="transform hover:scale-110 transition duration-300">
+            <Link href="/matryoshka_0.4.apk" className="transform hover:scale-110 transition duration-300">
               <Image width={180} height={52} src="/android_download.png" alt="Скачать матрешку на android" />
             </Link>
             <Link href="/" className="transform hover:scale-110 transition duration-300">
