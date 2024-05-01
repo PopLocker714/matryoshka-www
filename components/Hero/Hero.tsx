@@ -9,7 +9,7 @@ export const Hero = () => {
       {/* <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56"> */}
       <div className="sm:mb-8 flex justify-center mb-12">
         <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 dark:text-gray-300 ring-1 ring-gray-900/10 dark:ring-gray-200 hover:ring-gray-900/20 dark:hover:ring-indigo-300">
-          Матрешка Beta 0.12.7{" "}
+          Матрешка Beta {process.env.APP_VERSION + ' '}
           <a href="#" className="font-semibold text-indigo-600 dark:text-indigo-400">
             <span className="absolute inset-0" aria-hidden="true" />
             Подробнее <span aria-hidden="true">&rarr;</span>
@@ -31,7 +31,7 @@ export const Hero = () => {
             </p>
           </div>
           <div className="mt-10 flex items-center justify-start gap-x-6">
-            <Link href="/matryoshka_0.12.9.apk" className="transform hover:scale-110 transition duration-300">
+            <Link href={"apks/matryoshka_" + process.env.APP_VERSION || ""} className="transform hover:scale-110 transition duration-300">
               <Image width={180} height={52} src="/android_download.png" alt="Скачать матрешку на android" />
             </Link>
             <Link href="/" className="transform hover:scale-110 transition duration-300">
