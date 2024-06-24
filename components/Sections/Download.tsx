@@ -11,10 +11,10 @@ export default function Download() {
         <Link href={`apks/matryoshka_${cfg.APP_VERSION || ""}.apk`} className="transform hover:scale-110 transition duration-300 lg:mb-0 mb-2">
           <Image width={180} height={52} src="/download-icons/android_download.png" alt="Google Play" />
         </Link>
-        <Link href="https://huawei.com" className="transform hover:scale-110 transition duration-300 lg:mb-0 mb-2">
+        <Link href={cfg.DOWNLOADS_URLS.APP_GALLERY} className="transform hover:scale-110 transition duration-300 lg:mb-0 mb-2">
           <Image width={180} height={52} src="/download-icons/huawei_download.png" alt="Huawei App Gallery" />
         </Link>
-        <Link href="https://testflight.apple.com/join/gX8yT0AW" className="transform hover:scale-110 transition duration-300 lg:mb-0 mb-2">
+        <Link href={cfg.DOWNLOADS_URLS.APP_STORE} className="transform hover:scale-110 transition duration-300 lg:mb-0 mb-2">
           <Image width={180} height={52} src="/download-icons/ios_download.png" alt="App Store" />
         </Link>
         <p>Актуальная версия {cfg.APP_VERSION}</p>
