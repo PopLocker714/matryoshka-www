@@ -1,0 +1,5 @@
+{
+  "MODE": "development",
+  "APP_VERSION": "0.14.0",
+  "API_URL": "http://localhost:3713"
+}

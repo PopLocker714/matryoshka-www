@@ -3,3 +3,4 @@ namespace NodeJS {
     APP_VERSION: string;
   }
 }
+// "API_URL": "https://avtomobil-v-kredit.ru",

@@ -1,27 +1,3 @@
-// "use client";
-// import { useTheme } from "next-themes";
-// import React from "react";
-// import { Button } from "./ui/button";
-// import { getCurrentTheme } from "@/lib/getCurrentThemeState";
-
-// export const SwitchThemeButton = () => {
-//   const { setTheme } = useTheme();
-//   const [theme, setThemeState] = React.useState<"system" | "dark" | "light">(getCurrentTheme());
-
-//   const switchTheme = () => {
-//     setTheme(theme === "dark" ? "light" : "dark");
-//     setThemeState(theme === "dark" ? "light" : "dark");
-//   };
-
-//   return (
-//     <Button className="sticky bottom-0 right-0 z-10" onClick={switchTheme}>
-//       switch-theme-button
-//     </Button>
-//   );
-// };
-
-// export default SwitchThemeButton;
-
 "use client";
 
 import * as React from "react";
