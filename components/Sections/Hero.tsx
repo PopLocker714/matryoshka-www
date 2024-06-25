@@ -36,7 +36,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex justify-center">
-          <Image src="/phone_chat.png" width={282} height={581} alt="screenshot" />
+          <Image src="/phone_home.png" className="rounded-lg" width={282} height={581} alt="screenshot" />
         </div>
       </div>
     </section>
