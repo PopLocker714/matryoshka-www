@@ -1,6 +1,6 @@
 {
   "MODE": "development",
-  "APP_VERSION": "0.14.0",
+  "APP_VERSION": "0.14.1",
   "API_URL": "https://avtomobil-v-kredit.ru",
   "DOWNLOADS_URLS": {
     "PLAY_STORE": "",

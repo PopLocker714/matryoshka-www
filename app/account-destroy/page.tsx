@@ -149,7 +149,7 @@ export default function DeleteAccount() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-4xl px-4 h-full">
+      <main className="mx-auto max-w-4xl px-4 flex flex-1">
         <section className="py-2">
           <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
             Удаление аккаунта Матрешка
