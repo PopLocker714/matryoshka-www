@@ -1,9 +1,9 @@
 {
   "MODE": "development",
-  "APP_VERSION": "0.14.1",
+  "APP_VERSION": "0.14.2",
   "API_URL": "https://avtomobil-v-kredit.ru",
   "DOWNLOADS_URLS": {
-    "PLAY_STORE": "",
+    "PLAY_STORE": "https://play.google.com/store/apps/details?id=com.matryoshka",
     "APP_STORE": "https://testflight.apple.com/join/gX8yT0AW",
     "APP_GALLERY": "https://appgallery.huawei.com/#/app/C110740955"
   }
