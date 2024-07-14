@@ -1,6 +1,6 @@
 {
   "MODE": "development",
-  "APP_VERSION": "0.14.3",
+  "APP_VERSION": "0.14.5",
   "API_URL": "https://avtomobil-v-kredit.ru",
   "DOWNLOADS_URLS": {
     "PLAY_STORE": "https://play.google.com/store/apps/details?id=com.matryoshka",

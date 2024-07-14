@@ -4,11 +4,10 @@ import { Button } from "@/components/ui/button";
 import { DownloadIcon } from "lucide-react";
 import Link from "next/link";
 import cfg from "@/config.json";
-import { useEffect } from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Загрузить Mатрешку",
+  title: "Загрузить Матрешку",
   description: "Скачать матрешку",
 };
 
